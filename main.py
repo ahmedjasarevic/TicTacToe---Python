@@ -44,7 +44,7 @@ def game_board(game_map, player = 0, row = 0, column = 0, just_display = False):
         if game_map[row][column] != 0:
             print("Chose another position")
             return game_map, False
-        print("   0  1  2")
+        print("   "+ "  ".join([str(i) for i in range(len(game_map))]))
         if not just_display:
             game_map[row][column] = player
         for count, row in enumerate(game_map):
@@ -62,10 +62,8 @@ def game_board(game_map, player = 0, row = 0, column = 0, just_display = False):
 play = True
 players = [1,2]
 while play:
-    game = [[0, 0, 0],
-            [0, 0, 0],
-            [0, 0, 0]]
-
+    game_size = int(input("What size you want of tic tac toe: "))
+    game = [[0 for i in range(game_size)] for i in range(game_size)]
     game_won = False
     game, _ = game_board(game, just_display=True)
     player_choice = itertools.cycle([1,2])
