@@ -14,6 +14,9 @@ def win(current_game):
         if all_same(row):
             print(f"Player {row[0]} is the winner horizontally!")
             return True
+        if sum(row.count(0) for row in current_game) == 0:
+            print("No winner.DRAW")
+            return True
     # Diagonal winner
     diags = []
     for col, row in enumerate(reversed(range(len(game)))):
