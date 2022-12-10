@@ -31,11 +31,11 @@ Diagonal winner
 
 Vertical winner
 
-![vertical](Screenshots/pocetnastranica.png)
+![vertical](Screenshots/vertical.png)
 
 Horizontal winner
 
-![horizontal](Screenshots/pocetnastranica.png)
+![horizontal](Screenshots/horizontal.png)
 
 
 
