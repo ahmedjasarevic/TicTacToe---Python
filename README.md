@@ -37,7 +37,9 @@ Horizontal winner
 
 ![horizontal](Screenshots/horizontal.png)
 
+## Draw
 
+![draw](Screenshots/draw.png)
 
 ## Built With
 
