@@ -21,6 +21,24 @@ To play the game, follow these steps:
 4. The game will update the grid and display the new state.
 5. Repeat steps 3 and 4 until one of the players wins or the game ends in a draw.
 
+## Win
+
+You can win in 3 ways diagonally, horizontally and vertically.
+
+Diagonal winner
+
+![diagonal](Screenshots/diagonal.png)
+
+Vertical winner
+
+![vertical](Screenshots/pocetnastranica.png)
+
+Horizontal winner
+
+![horizontal](Screenshots/pocetnastranica.png)
+
+
+
 ## Built With
 
 * [Python and PyCharm](https://www.python.org/) - The programming language used
